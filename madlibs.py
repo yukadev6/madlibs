@@ -14,6 +14,7 @@ adjective = input("Give me an adjective  ")
 
 
 # TODO: Output the template to the screen with the blanks filled out with what the user stated
-print("I enjoy practice! I find it helps me to", verb, "better.")
-print("Without practice, my", noun, "would probably not even work.")
-print("My code is getting more", adjective, "every single day!")
+madlib = f"I enjoy Practice! I find it helps me to {verb} better. Without practice, my {noun} would probably \
+not even work. My code is getting more {adjective} every single day!"
+
+print(madlib)
